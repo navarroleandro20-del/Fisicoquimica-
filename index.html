@@ -1,80 +1,69 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Profesor - Recursos y Apuntes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Profesor Leandro - Fisicoquímica</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header class="site-header">
-    <div class="wrap header-inner">
-      <img src="assets/logo.jpg" alt="Logo" class="logo"/>
-      <div>
-        <h1>Nombre del Profesor</h1>
-        <p class="subtitle">Apuntes, guías y material para las materias — Descargá y compartí</p>
+    <div class="brand">
+      <div class="logo-wrap"><img src="assets/logo.jpg" alt="Logo" class="logo"></div>
+      <div class="brand-text">
+        <h1>Leandro Navarro — Fisicoquímica</h1>
+        <p class="tag">Apuntes, guías y recursos para alumnos</p>
       </div>
     </div>
   </header>
 
   <nav class="nav">
-    <div class="wrap">
-      <a href="#inicio">Inicio</a>
-      <a href="#apuntes">Apuntes</a>
-      <a href="#cursos">Cursos</a>
-      <a href="#contacto">Contacto</a>
-    </div>
+    <a href="#inicio">Inicio</a>
+    <a href="#apuntes">Apuntes</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contacto">Contacto</a>
   </nav>
 
   <main class="wrap">
-    <section id="inicio" class="card">
-      <h2>Bienvenido</h2>
-      <p>Esta plataforma es un repositorio para tus alumnos: podés subir PDFs, crear carpetas por materia y compartir enlaces de descarga.</p>
-      <p>Te entrego una web lista para desplegar en GitHub Pages o Netlify. En la carpeta <code>/content</code> podés arrastrar tus apuntes.</p>
+    <section id="inicio" class="card hero">
+      <h2>Bienvenidos</h2>
+      <p>Repositorio de apuntes, ejercicios resueltos y material multimedia. Descargá archivos directamente desde la sección Apuntes.</p>
     </section>
 
     <section id="apuntes" class="card">
-      <h2>Apuntes y Descargas</h2>
-      <p>Contenido disponible:</p>
-      <ul id="file-list">
-        <li><a href="content/Ejemplo_apunte.pdf" download>Ejemplo_apunte.pdf</a> — Apunte de muestra</li>
+      <h2>Apuntes y descargas</h2>
+      <ul class="file-list">
+      <li><a href="content/Ejemplo_apunte.pdf" download>Ejemplo_apunte.pdf</a>
+
       </ul>
-      <p class="muted">Para añadir archivos, subí tus PDFs a la carpeta <code>/content</code> antes de desplegar.</p>
+      <p class="muted">Subí más PDFs a la carpeta <code>/content</code> antes de desplegar para que estén disponibles.</p>
     </section>
 
     <section id="cursos" class="card two-col">
       <div>
         <h3>Cursos</h3>
         <ul>
-          <li><strong>Análisis Matemático II</strong> — Material y ejercicios.</li>
-          <li><strong>Física - Óptica y Electromagnetismo</strong> — Guías y prácticas.</li>
-          <li><strong>Química Analítica</strong> — Apuntes y problemas resueltos.</li>
+          <li><strong>Análisis Matemático II</strong> — Material de cursada y parciales.</li>
+          <li><strong>Física y Química</strong> — Guías prácticas y ejercicios resueltos.</li>
         </ul>
       </div>
       <div>
-        <h3>Calendario</h3>
-        <p>Próxima clase: <strong>Miércoles 20:00</strong></p>
-        <p>Podés reemplazar esto por un Google Calendar embebido si querés.</p>
+        <h3>Próxima clase</h3>
+        <p>Miércoles 20:00 — Aula virtual</p>
       </div>
-    </section>
-
-    <section id="upload" class="card">
-      <h2>Subir material (opcional)</h2>
-      <p>Si querés un panel de subida que funcione sin tocar código, usá Netlify Drop o subí directamente a GitHub (se indican pasos en README).</p>
-      <p>Si querés que arme un panel de subida (con Firebase para almacenar archivos), lo preparo y te lo dejo listo para conectar.</p>
     </section>
 
     <section id="contacto" class="card">
       <h2>Contacto</h2>
       <p>Email: <a href="mailto:tu.email@ejemplo.com">tu.email@ejemplo.com</a></p>
-      <p>Opcional: links a redes, formulario, etc.</p>
+      <p>Podés pedirme que agregue un formulario de contacto o un calendario embebido.</p>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>© 2025 - Sitio preparado por el Brother Cuántico</p>
-      <p><small>Deploy: GitHub Pages / Netlify — ver README_deploy.txt</small></p>
+      <p>© 2025 Leandro Navarro — Sitio preparado con ayuda del Brother Cuántico</p>
     </div>
   </footer>
 
