@@ -1,72 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Profesor Leandro - Fisicoquímica</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisicoquímica y Materiales</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <header class="site-header">
-    <div class="brand">
-      <div class="logo-wrap"><img src="assets/logo.jpg" alt="Logo" class="logo"></div>
-      <div class="brand-text">
-        <h1>Leandro Navarro — Fisicoquímica</h1>
-        <p class="tag">Apuntes, guías y recursos para alumnos</p>
-      </div>
-    </div>
-  </header>
+    <header>
+        <h1>Biblioteca de Apuntes y Materiales</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#fisico1">Fisicoquímica I</a></li>
+                <li><a href="#fisico2">Fisicoquímica II</a></li>
+                <li><a href="#mate">Matemáticas</a></li>
+                <li><a href="#bioq">Bioquímica</a></li>
+                <li><a href="#biocel">Biología Celular</a></li>
+                <li><a href="#cuantica">Física Cuántica</a></li>
+                <li><a href="#clasica">Física Clásica</a></li>
+                <li><a href="#dife">Ecuaciones Diferenciales</a></li>
+                <li><a href="#grupos">Teoría de Grupos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <nav class="nav">
-    <a href="#inicio">Inicio</a>
-    <a href="#apuntes">Apuntes</a>
-    <a href="#cursos">Cursos</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
+    <main>
 
-  <main class="wrap">
-    <section id="inicio" class="card hero">
-      <h2>Bienvenidos</h2>
-      <p>Repositorio de apuntes, ejercicios resueltos y material multimedia. Descargá archivos directamente desde la sección Apuntes.</p>
-    </section>
+        <section class="intro">
+            <p>
+                Bienvenido a tu biblioteca digital de apuntes.  
+                Acá vas a encontrar materiales de química, matemática, biología, biofísica, física clásica y cuántica.
+                Todo organizado por materias y listo para descargar o ver online.
+            </p>
+        </section>
 
-    <section id="apuntes" class="card">
-      <h2>Apuntes y descargas</h2>
-      <ul class="file-list">
-      <li><a href="content/Ejemplo_apunte.pdf" download>Ejemplo_apunte.pdf</a>
+        <!-- Tarjetas de materias -->
+        <section class="materias">
 
-      </ul>
-      <p class="muted">Subí más PDFs a la carpeta <code>/content</code> antes de desplegar para que estén disponibles.</p>
-    </section>
+            <div class="card" id="fisico1">
+                <h2>Fisicoquímica I</h2>
+                <a class="btn" href="fisicoquimica1/">Ver materiales</a>
+            </div>
 
-    <section id="cursos" class="card two-col">
-      <div>
-        <h3>Cursos</h3>
-        <ul>
-          <li><strong>Análisis Matemático II</strong> — Material de cursada y parciales.</li>
-          <li><strong>Física y Química</strong> — Guías prácticas y ejercicios resueltos.</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Próxima clase</h3>
-        <p>Miércoles 20:00 — Aula virtual</p>
-      </div>
-    </section>
+            <div class="card" id="fisico2">
+                <h2>Fisicoquímica II</h2>
+                <a class="btn" href="fisicoquimica2/">Ver materiales</a>
+            </div>
 
-    <section id="contacto" class="card">
-      <h2>Contacto</h2>
-      <p>Email: <a href="mailto:tu.email@ejemplo.com">tu.email@ejemplo.com</a></p>
-      <p>Podés pedirme que agregue un formulario de contacto o un calendario embebido.</p>
-    </section>
-  </main>
+            <div class="card" id="mate">
+                <h2>Matemáticas</h2>
+                <a class="btn" href="matematicas/">Ver materiales</a>
+            </div>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>© 2025 Leandro Navarro — Sitio preparado con ayuda del Brother Cuántico</p>
-    </div>
-  </footer>
+            <div class="card" id="bioq">
+                <h2>Bioquímica</h2>
+                <a class="btn" href="bioquimica/">Ver materiales</a>
+            </div>
 
-  <script src="scripts.js"></script>
+            <div class="card" id="biocel">
+                <h2>Biología Celular</h2>
+                <a class="btn" href="biologia_celular/">Ver materiales</a>
+            </div>
+
+            <div class="card" id="cuantica">
+                <h2>Física Cuántica</h2>
+                <a class="btn" href="fisica_cuantica/">Ver materiales</a>
+            </div>
+
+            <div class="card" id="clasica">
+                <h2>Física Clásica</h2>
+                <a class="btn" href="fisica_clasica/">Ver materiales</a>
+            </div>
+
+            <div class="card" id="dife">
+                <h2>Ecuaciones Diferenciales</h2>
+                <a class="btn" href="ecuaciones_diferenciales/">Ver materiales</a>
+            </div>
+
+            <div class="card" id="grupos">
+                <h2>Teoría de Grupos</h2>
+                <a class="btn" href="teoria_de_grupos/">Ver materiales</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Biblioteca de Apuntes — Creada con ayuda del brother 😎🔥</p>
+    </footer>
+
 </body>
 </html>
